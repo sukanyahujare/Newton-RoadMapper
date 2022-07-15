@@ -1,1 +1,60 @@
+html {
+ width: 500px;
+}
+body {
+ font-family: Helvetica, sans-serif;
+ background-color: rgb(222, 205, 184);
+}
+h1 {
+ text-align: center;
+}
+label{
+  font-size: 100%;
+  font-weight: 900;
+  color: rgb(19, 20, 20);
+ 
+}
+
+#buttonTwo {
+ border-radius: 0px;
+ width: 40%;
+ padding: 10px 0px;
+ margin-top: 10px;
+}
+
+#button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+   
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button5:hover {
+    background-color: #555555;
+    color: white;
+  }
+     
+  .grid-container {
+    display: grid;
+    gap: 5px 5px;
+    grid-template-columns: 300px;
+    background-color: #F9F8F8;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding:10px;
+    font-size: 20px;
+    text-align: left;
+  }
+
+ 
 
