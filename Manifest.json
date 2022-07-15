@@ -1,0 +1,12 @@
+{
+ "name": "Newton School Mock Preperation",
+ "version": "1.0.0",
+ "description": "A search tool to find interview concepts",
+ "manifest_version": 3,
+ "permissions": ["storage", "declarativeContent", "activeTab", "scripting"],
+ "host_permissions": [""],
+ "action":{
+ "default_popup": "index.html",
+ "default_title": "Newton School Mock Preperation"
+ }
+}
